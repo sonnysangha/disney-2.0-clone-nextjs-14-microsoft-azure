@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="dark:bg-[#1A1C29] bg-gray-400">
+      <body className="dark:bg-[#1A1C29] bg-white">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -23,6 +23,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
+
           {children}
         </ThemeProvider>
       </body>

@@ -1,0 +1,11 @@
+// rename this file and remove the .example
+
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "OPENAI_API_KEY": "secret-key-goes-here"
+  }
+}
